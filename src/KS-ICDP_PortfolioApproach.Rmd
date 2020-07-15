@@ -1,0 +1,43 @@
+---
+title: "KS-ICDP_PortfolioApproach"
+author: "James Erbaugh"
+date: "6/6/2019"
+output: pdf_document
+---
+
+```{r, include = FALSE, warning=FALSE}  
+
+library(foreign)
+library(magrittr)
+library(ggplot2)
+library(ggpubr)
+library(knitr)
+library(tidyverse)
+library(reshape2)
+library(plotly)
+library(dplyr)
+library(devtools)
+library(webshot)
+
+#devtools::install_github('hadley/ggplot2')
+#webshot::install_phantomjs()
+
+```
+
+## R Markdown
+
+
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
